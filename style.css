@@ -1,6 +1,6 @@
 /* CORE STYLES */
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
+    --primary-color: rgba(215, 140, 44, 0.75);
     --overlay-color: rgba(24, 39, 51 , 0.85);
     --menu-speed: 0.75s;
   }
@@ -22,17 +22,17 @@
     overflow: hidden;
     padding: 0 3rem;
   }
-  
+
   .showcase {
-    background: var(--primary-color);
+    /*background: var(--primary-color);*/
     color: #fff;
     height: 100vh;
     position: relative;
   }
-/* 
+
   .showcase:before {
     content: '';
-    background: url('https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover;
+    background: linear-gradient(to bottom,  rgba(215, 162, 44, 0.9) 0%, rgba(215, 140, 44, 0.9)     60%, rgba(215, 96, 44, 0.9) 200%);
     position: absolute;
     top: 0;
     left: 0;
@@ -40,7 +40,7 @@
     height: 100%;
     z-index: -1;
   }
-*/  
+
   .showcase .showcase-inner {
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@
     background: var(--primary-color);
     color: #fff;
     padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     transition: opacity 1s ease-in-out;
     text-decoration: none;
   }
